@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueSpace - Paid Courses</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #6c757d; /* Grey background for the header bar */
+            padding: 20px 0; /* Padding to space out the text */
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff; /* White text color */
+        }
+
+        main {
+            padding: 40px 20px;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #343a40;
+        }
+
+        .intro p {
+            font-size: 1.2em;
+            color: #6c757d;
+        }
+
+        .courses {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .courses h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #343a40;
+        }
+
+        .course-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .course-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+            color: #343a40;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+
+        .course-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .course-item h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #343a40;
+        }
+
+        .course-item p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #6c757d;
+        }
+
+        .course-item .price {
+            font-size: 1.5em;
+            color: #28a745; /* Green color for the price */
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .course-item .source {
+            font-size: 1em;
+            color: #007bff; /* Blue color for the source */
+            margin-top: 10px;
+        }
+
+        .not-available {
+            color: red; /* Red color for the not available text */
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .contact {
+            font-size: 1em;
+            color: #343a40;
+            margin-top: 10px;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #fff; /* Set background color to white */
+            color: #343a40;
+            margin-top: 40px;
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BlueSpace</h1>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Paid Cybersecurity Courses</h2>
+            <p>Enhance your skills with our premium cybersecurity courses. Gain advanced knowledge and hands-on experience with cutting-edge techniques.</p>
+        </section>
+
+        <section class="courses">
+            <h2>Available Paid Courses</h2>
+            <div class="course-list">
+                <div class="course-item">
+                    <h3>Python for Hackers</h3>
+                    <p>Learn how to use Python for hacking and automating security tasks.</p>
+                    <div class="price">$40</div>
+                    <div class="source">High-rated course on Udemy</div>
+                </div>
+                
+                <div class="course-item">
+                    <h3>RAT Development</h3>
+                    <p>Master the skills needed to develop Remote Access Trojans.</p>
+                    <div class="price">$140</div>
+                    <div class="source">High-rated course on Udemy</div>
+                </div>
+                
+                <div class="course-item">
+                    <h3>Pentest+</h3>
+                    <p>Learn advanced penetration testing techniques and methodologies.</p>
+                    <div class="price">$100</div>
+                    <div class="source">High-rated course on Udemy</div>
+                </div>
+                
+                <div class="course-item">
+                    <h3>Reverse Engineering</h3>
+                    <p>Discover the art of reverse engineering and dissecting software.</p>
+                    <div class="not-available">NOT AVAILABLE</div>
+                    <div class="contact">Will be available in 3 days. If you want this course really quick, contact me at bluespacebluespace6@gmail.com, and in 3 hours or 1 day, I will send you the course.</div>
+                </div>
+                
+                <div class="course-item">
+                    <h3>Bug Bounty</h3>
+                    <p>Learn the techniques for identifying vulnerabilities in applications.</p>
+                    <div class="price">$250</div>
+                    <div class="source">High-rated course on Udemy</div>
+                </div>
+                
+                <div class="course-item">
+                    <h3>Security+</h3>
+                    <p>Prepare for the Security+ certification with comprehensive training.</p>
+                    <div class="not-available">NOT AVAILABLE</div>
+                    <div class="contact">Will be available in 3 days. If you want this course really quick, contact me at bluespacebluespace6@gmail.com, and in 3 hours or 1 day, I will send you the course.</div>
+                </div>
+                
+                <div class="course-item">
+                    <h3>Cars Hacking</h3>
+                    <p>Explore the security challenges and techniques for hacking modern cars.</p>
+                    <div class="not-available">NOT AVAILABLE</div>
+                    <div class="contact">Will be available in 5 days. If you want this course really quick, contact me at bluespacebluespace6@gmail.com, and in 3 hours or 1 day, I will send you the course.</div>
+                </div>
+                
+                <div class="course-item">
+                    <h3>Burp Suite</h3>
+                    <p>Learn how to use Burp Suite for web application security testing.</p>
+                    <div class="not-available">NOT AVAILABLE</div>
+                    <div class="contact">Will be available in 4 days. If you want this course really quick, contact me at bluespacebluespace6@gmail.com, and in 3 hours or 1 day, I will send you the course.</div>
+                </div>
+                
+                <div class="course-item">
+                    <h3>Craxs RAT</h3>
+                    <p>Understand the functionalities and applications of Craxs RAT in security testing.</p>
+                    <div class="price">$30</div>
+                    <div class="source">High-rated course on Udemy</div>
+                </div>
+                
+                <div class="course-item">
+                    <h3>CEH</h3>
+                    <p>Prepare for the Certified Ethical Hacker exam with in-depth training.</p>
+                    <div class="price">$180</div>
+                    <div class="source">High-rated course on Udemy</div>
+                </div>
+                
+                <div class="course-item">
+                    <h3>Mastering SQL Injection</h3>
+                    <p>Gain expertise in identifying and exploiting SQL injection vulnerabilities.</p>
+                    <div class="not-available">NOT AVAILABLE</div>
+                    <div class="contact">Will be available in 2 days. If you want this course really quick, contact me at bluespacebluespace6@gmail.com, and in 3 hours or 1 day, I will send you the course.</div>
+                </div>
+                
+                <div class="course-item">
+                    <h3>eJPTv2</h3>
+                    <p>Prepare for the eLearnSecurity Junior Penetration Tester certification.</p>
+                    <div class="not-available">NOT AVAILABLE</div>
+                    <div class="contact">Will be available in 5 days. If you want this course really quick, contact me at bluespacebluespace6@gmail.com, and in 3 hours or 1 day, I will send you the course.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BlueSpace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
